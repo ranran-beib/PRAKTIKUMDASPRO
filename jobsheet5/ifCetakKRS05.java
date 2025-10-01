@@ -4,13 +4,14 @@ public class ifCetakKRS05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Input status UKT
+        System.out.println("--- Cetak KRS SIAKAD ---");
         System.out.print("Apakah UKT sudah lunas? (true/false): ");
         boolean uktLunas = sc.nextBoolean();
 
-        // IF sederhana
+    
         if (uktLunas) {
-            System.out.println("KRS dapat dicetak.");
+            System.out.println("Pembayaran UKT terverifikasi");
+            System.out.print("Silakan cetak KRS dan minta tanda tangan DPA");
         }
 
         sc.close();
